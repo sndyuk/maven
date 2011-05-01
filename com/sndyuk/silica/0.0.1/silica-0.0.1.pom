@@ -195,26 +195,15 @@ org.eclipse.jdt.core.compiler.source=1.6
 		</plugins>
 	</build>
 
-
-	<!-- <repositories> -->
-	<!-- <repository> -->
-	<!-- <id>msgpack.org</id> -->
-	<!-- <name>MessagePack Repository for Maven</name> -->
-	<!-- <url>http://msgpack.org/maven2/</url> -->
-	<!-- </repository> -->
-	<!-- </repositories> -->
+	<distributionManagement>
+		<repository>
+			<id>silica.com</id>
+			<name>Silica Repository for Maven</name>
+			<url>file:///C:/Space/workspace/dev/maven/</url>
+		</repository>
+	</distributionManagement>
 
 	<dependencies>
-		<!-- <dependency> -->
-		<!-- <groupId>org.msgpack</groupId> -->
-		<!-- <artifactId>msgpack</artifactId> -->
-		<!-- <version>0.5.1-devel</version> -->
-		<!-- </dependency> -->
-		<!-- <dependency> -->
-		<!-- <groupId>org.msgpack</groupId> -->
-		<!-- <artifactId>msgpack-rpc</artifactId> -->
-		<!-- <version>0.6.1-devel</version> -->
-		<!-- </dependency> -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit-dep</artifactId>
@@ -232,18 +221,6 @@ org.eclipse.jdt.core.compiler.source=1.6
 			<artifactId>mockito-all</artifactId>
 			<version>${mockito.version}</version>
 			<scope>test</scope>
-		</dependency>
-		<!-- <dependency> -->
-		<!-- <groupId>bcel</groupId> -->
-		<!-- <artifactId>bcel</artifactId> -->
-		<!-- <version>5.1</version> -->
-		<!-- </dependency> -->
-		<dependency>
-			<groupId>org.apache.felix</groupId>
-			<artifactId>org.apache.felix.scr.annotations</artifactId>
-			<version>1.5.0</version>
-			<type>jar</type>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>commons-vfs</groupId>
