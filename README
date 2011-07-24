@@ -1,9 +1,8 @@
-
 	<repositories>
 		<repository>
 			<id>sndyuk.com</id>
 			<name>test</name>
-			<url>http://sndyuk.github.com/maven/</url>
+			<url>http://sndyuk.github.com/maven</url>
 		</repository>
 	</repositories>
 	<dependencies>
